@@ -1,0 +1,210 @@
+/*-----------------------------------------------------------------------------------*/
+/*	RESPONSIVE STYLES
+/*-----------------------------------------------------------------------------------*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+/* Menu */
+	#main_menu li {margin-right:30px;}
+	
+	
+/* Top Slider */
+	.flexslider.top_slider, .flexslider.top_slider .slider_caption {height:620px;}
+	
+	
+/* Home Page */
+	
+	
+	
+/* Shop */
+	.product_description .price {top:70px;}
+	.product_description .add_to_cart_button {top:170px;}
+	
+	
+/* Other Pages */
+	.FlickrImages li a {width:64px; height:64px;}
+	
+	
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+/* Menu */
+	#main_menu li {margin-right:15px;}
+	
+	
+/* Top Slider */
+	.flexslider.top_slider, .flexslider.top_slider .slider_caption {height:450px;}
+	
+	
+	
+/* Home Page */
+	#home .logo a {width:440px;}
+	
+	
+/* Shop */
+	.product_description .price {top:70px;}
+	.product_description .add_to_cart_button {top:170px;}
+	
+
+/* Other Pages */
+	.icons_block li {width:33.33%;}
+	
+	.post_img iframe {height:255px;}
+	
+	
+}
+
+@media (max-width: 767px) {
+
+	
+/* Header */
+	#page {padding-top:0;}
+	header {position:relative;}
+	
+
+/* Menu */
+	.mobile_menu_btn {display:block;}
+	#main_menu {float:none; display:none; position:absolute; z-index:200; left:0; top:100%; width:100%; padding:10px 30px; background-color:#434343;}
+	#main_menu li {display:block; margin:0; text-align:left;}
+	#main_menu li a {padding:0 0 4px; color:#fff; background:none;}
+	#main_menu li:hover a, #main_menu li a:focus, #main_menu li.current-menu-item a {color:#e22b2d;}
+	#main_menu li a:before, #main_menu li a:after {display:none !Important;}
+	
+	/* sub menu */
+	#main_menu .sub-nav {visibility:visible; opacity:1; position:static; width:100%; margin:0; background:none;}
+	#main_menu .sub-nav:before {display:none;}
+	#main_menu .sub-nav li a {color:#7a7a7a;}
+	
+	/* sub sub menu */
+	#main_menu .sub-nav .sub-sub-menu {visibility:visible !important; opacity:1 !important; position:static; width:100%; margin:0; background:none:}
+	
+	
+/* Top Slider */
+	.flexslider.top_slider, .flexslider.top_slider .slider_caption {height:200px;}
+	
+	
+	
+/* Home Page */
+	#home, #home .container {height:340px;}
+	#home .logo a {width:280px;}
+	
+	
+/* Shop */
+	.product_description .price {top:70px;}
+	.product_description .add_to_cart_button {top:170px; font-size:18px; line-height:20px;}
+	
+	
+
+/* Other Pages */
+	#map {margin:0 0 50px;}
+	
+	.icons_block li {width:50%;}
+	
+	.post_img iframe {height:255px;}
+	
+	.frame340 {float:none !important;}
+	
+	.price_item {float:none; display:block; width:260px; margin:0 auto 30px;}
+	
+	.block_404 {padding:0 0 30px;}
+	#search-form {width:100%;}
+	
+	.coming_soon_block {padding-top:70px;}
+	.coming_soon_block h1 {font-size:34px; line-height:36px; margin-bottom:15px;}
+	ul.countdown li span {font-size:32px; line-height:32px;}
+	ul.countdown li.seperator {font-size:32px; line-height:32px; padding:0 3px;}
+	ul.countdown li p {font-size:12px; line-height:20px;}
+	
+	#filter li a {font-size:13px; padding:0 6px;}
+	
+	
+	.woocommerce-tabs #comments, .woocommerce-tabs #review_form_wrapper {float:none; width:100%;}
+	
+	
+	.foot_social_block {float:none !important;}
+	
+	
+}
+
+@media (max-width: 479px) {
+	.container {padding-left:15px; padding-right:15px;}
+	
+	
+/* Header */
+
+	
+
+/* Top Slider */
+	
+	
+
+/* Home Page */
+	
+	
+
+/* Shop */
+	.product_img_wrap a img {width:100%;}
+	.product_description .price {top:102px;}
+	.product_description .add_to_cart_button {font-size:18px; line-height:30px; top:231px;}
+	
+	.qty_wrap .quantity {width:110px;}
+	.single_add_to_cart_button {margin-right:10px; font-size:18px;}
+	
+	
+/* Other Pages */
+	.frame340 iframe {width:100%; margin:0 0 20px !important;}
+	
+	.icons_block li {width:100%;}
+	
+	
+
+/* Bootstrap Style fix */
+	.col-ss-1, .col-ss-2, .col-ss-3, .col-ss-4, .col-ss-5, .col-ss-6, .col-ss-7, .col-ss-8, .col-ss-9, .col-ss-10, .col-ss-11 {float: left;}
+	.col-ss-12 {width: 100%;}
+	.col-ss-11 {width: 91.66666666666666%;}
+	.col-ss-10 {width: 83.33333333333334%;}
+	.col-ss-9 {width: 75%;}
+	.col-ss-8 {width: 66.66666666666666%;}
+	.col-ss-7 {width: 58.333333333333336%;}
+	.col-ss-6 {width: 50%;}
+	.col-ss-5 {width: 41.66666666666667%;}
+	.col-ss-4 {width: 33.33333333333333%;}
+	.col-ss-3 {width: 25%;}
+	.col-ss-2 {width: 16.666666666666664%;}
+	.col-ss-1 {width: 8.333333333333332%;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
